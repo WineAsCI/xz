@@ -1,7 +1,4 @@
-image: library/ubuntu
-
-os:
-  - linux
+image: endle/wine-on-drone
 
 script:
   - "export DISPLAY=:99.0"
