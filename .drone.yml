@@ -1,7 +1,7 @@
 image: endle/wine-fedora:v1
 
 script:
-  - dnf install mingw32-gettext gettext-devel.i686
+  - dnf -y install mingw32-gettext gettext-devel.i686
   - cd xz
   - unset CC
   - ./autogen.sh --host=i686-w64-mingw32
