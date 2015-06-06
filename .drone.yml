@@ -1,8 +1,6 @@
 image: endle/wine-fedora:v1
 
 script:
-  - sudo apt-get install -y wine
-
   - cd xz
   - unset CC
   - ./autogen.sh --host=i686-w64-mingw32
